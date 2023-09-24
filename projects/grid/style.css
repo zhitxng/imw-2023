@@ -12,50 +12,52 @@ body {
 <!--Colour Palette-->
 
 
-.cream {
-    background: #FFF9E7 ;
+.red {
+    background: #E94734;
 }
 
-.red {
-    background: #E94734 ;
+.cream {
+    background: #FFF9E7;
 }
 
 .blue {
-    background: #3A94C0 ;
+    background: #3A94C0;
 }
 
 .yellow {
-    background: #F7DE00 ;
+    background: #F7DE00;
 }
 
-
-
-<!--Demarcations-->
-
-.section-1 {
-    grid-area: 1/1/5/4;
+      .section-1 {
+    grid-column: 1 / 4;
+    grid-row: 1 / 5;
 }
 
 .section-2 {
-    grid-area: 1/4/12/16;
+    grid-column: 4 / 16;
+    grid-row: 1 / 12;
 }
 
 .section-3 {
-    grid-area: 5/1/12/4;
+    grid-column: 1 / 4;
+    grid-row: 5 / 12;
 }
 
 .section-4 {
-    grid-area: 12/1/16/4;
+    grid-column: 1 / 4;
+    grid-row: 12 / 16;
 }
 
 .section-5 {
-    grid-area: 12/4/16/15;
+    grid-column: 4 / 15;
+    grid-row: 12 / 16;
 }
 
+
 .section-6 {
-    grid-row: 12/15/14/16;
+    grid-row: span 2;
 }
 
 .section-7 {
-    grid-row: 14/15/16/16;
+    grid-row: span 2;
 }
