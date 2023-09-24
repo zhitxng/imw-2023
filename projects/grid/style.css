@@ -26,35 +26,29 @@ body {
 }
 
 .section-1 {
-    grid-column: 1 / 4;
-    grid-row: 1 / 5;
+    grid-area: 1/1/5/4;
 }
 
 .section-2 {
-    grid-column: 4 / 16;
-    grid-row: 1 / 12;
+    grid-area: 1/4/12/16;
 }
 
 .section-3 {
-    grid-column: 1 / 4;
-    grid-row: 5 / 12;
+    grid-area: 5/1/12/4;
 }
 
 .section-4 {
-    grid-column: 1 / 4;
-    grid-row: 12 / 16;
+    grid-area: 12/1/16/4;
 }
 
 .section-5 {
-    grid-column: 4 / 15;
-    grid-row: 12 / 16;
+    grid-area: 12/4/16/15;
 }
 
-
 .section-6 {
-    grid-row: span 2;
+    grid-row: 12/15/14/16;
 }
 
 .section-7 {
-    grid-row: span 2;
+    grid-row: 14/15/16/16;
 }
