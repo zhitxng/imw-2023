@@ -1,6 +1,16 @@
-.painting-01-grid{
+body {
+    background-color: antiquewhite;
+}
+
+
+.painting-01-grid {
     display: grid;
     width: 600px;
     height: 600px;
-    grid-template: 50% 50% / 200px;
+    grid-template: repeat(15, 1fr)/repeat(15, 1fr);
+}
+
+
+.section-1 {
+    background-color: aqua;
 }
