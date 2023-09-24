@@ -1,0 +1,6 @@
+.painting-01-grid{
+    display: grid;
+    width: 600px;
+    height: 600px;
+    grid-template: repeat(15, 1fr)/repeat(15, 1fr);
+}
