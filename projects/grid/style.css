@@ -46,9 +46,9 @@ body {
 }
 
 .section-6 {
-    grid-row: 12/15/14/16;
+    grid-row: span 2;
 }
 
 .section-7 {
-    grid-row: 14/15/16/16;
+    grid-row: span 2;
 }
