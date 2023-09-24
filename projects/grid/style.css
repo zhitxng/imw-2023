@@ -1,4 +1,4 @@
-.body {
+body {
     background-color: rgb(156, 99, 24);
 }
 
@@ -12,5 +12,6 @@
 
 
 .section-1 {
-    background-color: aqua;
+    background-color: rgb(255, 0, 106);
+    grid-area: 1/4/1/5;
 }
