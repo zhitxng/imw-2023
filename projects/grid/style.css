@@ -2,7 +2,6 @@ body {
     background-color: rgb(243, 227, 206);
 }
 
-
 .painting-01-grid {
     display: grid;
     width: 600px;
@@ -11,16 +10,52 @@ body {
 
 }
 
+<!--Colour Palette-->
+
 .cream {
     background: #fff9e7;
 }
 
+.red {
+    background: #E94734 ;
+}
+
+.blue {
+    background: #3A94C0 ;
+}
+
+.yellow {
+    background: #F7DE00 ;
+}
+
+
+
+<!--Demarcations-->
+
 .section-1 {
-    background-color: rgb(77, 34, 52);
     grid-area: 1/1/5/4;
 }
 
 .section-2 {
-    background-color: aqua;
     grid-area: 1/4/12/16;
+}
+
+.section-3 {
+    grid-area: 5/1/12/4;
+}
+
+.section-4 {
+    grid-area: 12/1/16/4;
+}
+
+.section-5 {
+    grid-area: 12/4/16/15;
+}
+
+.section-6 {
+    grid-row: span 2;
+}
+
+.section-7 {
+    grid-row: span 2;
 }
