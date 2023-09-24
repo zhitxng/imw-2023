@@ -53,9 +53,9 @@ body {
 }
 
 .section-6 {
-    
+    grid-row: span 2;
 }
 
 .section-7 {
-   
+    grid-row: span 2;
 }
