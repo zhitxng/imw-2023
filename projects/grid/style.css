@@ -81,21 +81,20 @@ body {
 
 /* COLOURS */
 
-.red {
-   background: #1dc27b;
-
+.lightblue {
+   background: #bbcdd1;
 }
 
 .cream {
-    background: #FFF9E7;
-}
-
-.blue {
-    background: #3A94C0;
+    background: #f4f8df;
 }
 
 .yellow {
-    background: #F7DE00;
+    background: #deb329;
+}
+
+.blue {
+    background: #0221ca;
 }
 
 
