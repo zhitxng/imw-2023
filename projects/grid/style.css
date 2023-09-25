@@ -9,7 +9,9 @@ body {
     grid-template: repeat(15, 1fr)/repeat(15, 1fr);
 }
 
+
 <!--Colours-->
+
 
 .red {
     background: #E94734;
@@ -27,7 +29,20 @@ body {
     background: #F7DE00;
 }
 
+
 <!--Borders-->
+
+
+.border-right {
+    border-right: 15px solid #4B4444;
+}
+
+.border-bottom {
+    border-bottom: 15px solid #4B4444;
+}
+
+
+<!--Sections-->
 
 
 .section-1 {
