@@ -7,14 +7,12 @@ body {
     width: 600px;
     height: 600px;
     grid-template: repeat(15, 1fr)/repeat(15, 1fr);
-}
 
-
-<!-- Colours -->
-
+/* COLOURS */
 
 .red {
-    background: #E94734;
+   background: #e94734;
+
 }
 
 .cream {
@@ -30,7 +28,7 @@ body {
 }
 
 
-<!-- Borders -->
+/* BORDERS */
 
 
 .border-right {
@@ -42,7 +40,7 @@ body {
 }
 
 
-<!-- Sections -->
+/* SECTIONS */
 
 
 .section-1 {
@@ -71,4 +69,6 @@ body {
 
 .section-7 {
     grid-row: span 2;
+}
+
 }
