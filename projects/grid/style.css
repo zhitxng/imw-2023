@@ -7,10 +7,8 @@ body {
     width: 600px;
     height: 600px;
     grid-template: repeat(15, 1fr)/repeat(15, 1fr);
-}
 
-
-<!--Colours-->
+    <!-- Colours -->
 
 
 .red {
@@ -30,7 +28,7 @@ body {
 }
 
 
-<!--Borders-->
+<!-- Borders -->
 
 
 .border-right {
@@ -42,7 +40,7 @@ body {
 }
 
 
-<!--Sections-->
+<!-- Sections -->
 
 
 .section-1 {
@@ -72,3 +70,79 @@ body {
 .section-7 {
     grid-row: span 2;
 }
+
+}
+
+
+
+
+.painting-02-grid {
+    display: grid;
+    width: 600px;
+    height: 600px;
+    grid-template: repeat(15, 1fr)/repeat(15, 1fr);
+
+
+.red {
+    background: #FFF9E6;
+}
+
+.cream {
+    background: #FFF9E7;
+}
+
+.blue {
+    background: #FFF9E7;
+}
+
+.yellow {
+    background: #F7DE00;
+}
+
+
+<!-- Borders -->
+
+
+.border-right {
+    border-right: 15px solid #4B4444;
+}
+
+.border-bottom {
+    border-bottom: 15px solid #4B4444;
+}
+
+
+<!-- Sections -->
+
+
+.section-1 {
+    grid-area: 1/1/5/4;
+}
+
+.section-2 {
+    grid-area: 1/4/12/16;
+}
+
+.section-3 {
+    grid-area: 5/1/12/4;
+}
+
+.section-4 {
+    grid-area: 12/1/16/4;
+}
+
+.section-5 {
+    grid-area: 12/4/16/15;
+}
+
+.section-6 {
+    grid-row: span 2;
+}
+
+.section-7 {
+    grid-row: span 2;
+}
+
+}
+
+
