@@ -9,6 +9,8 @@ body {
     grid-template: repeat(15, 1fr)/repeat(15, 1fr);
 }
 
+<!--Colours-->
+
 .red {
     background: #E94734;
 }
@@ -24,6 +26,9 @@ body {
 .yellow {
     background: #F7DE00;
 }
+
+<!--Borders-->
+
 
 .section-1 {
     grid-area: 1/1/5/4;
