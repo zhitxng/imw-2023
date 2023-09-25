@@ -72,3 +72,74 @@ body {
 }
 
 }
+
+.painting-02-grid {
+    display: grid;
+    width: 600px;
+    height: 600px;
+    grid-template: repeat(15, 1fr)/repeat(15, 1fr);
+
+/* COLOURS */
+
+.red {
+   background: #1dc27b;
+
+}
+
+.cream {
+    background: #FFF9E7;
+}
+
+.blue {
+    background: #3A94C0;
+}
+
+.yellow {
+    background: #F7DE00;
+}
+
+
+/* BORDERS */
+
+
+.border-right {
+    border-right: 15px solid #4B4444;
+}
+
+.border-bottom {
+    border-bottom: 15px solid #4B4444;
+}
+
+
+/* SECTIONS */
+
+
+.section-1 {
+    grid-area: 1/1/5/4;
+}
+
+.section-2 {
+    grid-area: 1/4/12/16;
+}
+
+.section-3 {
+    grid-area: 5/1/12/4;
+}
+
+.section-4 {
+    grid-area: 12/1/16/4;
+}
+
+.section-5 {
+    grid-area: 12/4/16/15;
+}
+
+.section-6 {
+    grid-row: span 2;
+}
+
+.section-7 {
+    grid-row: span 2;
+}
+
+}
