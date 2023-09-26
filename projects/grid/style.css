@@ -2,9 +2,6 @@ body {
     background-color: rgb(96, 96, 96);
 }
 
-.title {
-    display: block;
-}
 
 .painting-01-grid {
     display: grid;
