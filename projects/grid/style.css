@@ -2,6 +2,10 @@ body {
     background-color: rgb(96, 96, 96);
 }
 
+.h1 {
+    display: block;
+}
+
 .painting-01-grid {
     display: grid;
     width: 600px;
