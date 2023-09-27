@@ -111,6 +111,10 @@ body {
     border-bottom: 15px solid #000000;
 }
 
+.gridlines {
+    display: grid 1px;
+    grid-template: 1fr, 1fr/repeat(10, 1fr);
+}
 
 /* SECTIONS */
 
