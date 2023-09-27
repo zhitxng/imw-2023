@@ -145,6 +145,9 @@ body {
 
 .gridlines {
     display: inline-grid;
+    position: absolute;
+    left: 0px;
+    right: 0px;
     z-index: +1;
     width: 600px;
     height: 600px;
