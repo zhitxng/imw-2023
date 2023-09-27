@@ -104,6 +104,10 @@ body {
 /* BORDERS */
 
 
+.border-left {
+    border-left: 15px solid #000000;
+}
+
 .border-right {
     border-right: 15px solid #000000;
 }
