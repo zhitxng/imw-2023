@@ -77,7 +77,6 @@ body {
 
 .painting-02-grid {
     display: grid;
-    grid-gap: 2px
     width: 600px;
     height: 600px;
     grid-template: repeat(10, 1fr)/repeat(10, 1fr);
@@ -145,4 +144,96 @@ body {
 }
 
 }
+
+.painting-03-grid {
+    display: grid;
+    width: 600px;
+    height: 600px;
+    grid-template: repeat(10, 1fr)/repeat(10, 1fr);
+
+/* COLOURS */
+
+.green {
+   background: #3c5f59;
+}
+
+.purple {
+    background: #7640b2;
+}
+
+.black {
+    background: #000000;
+}
+
+.pink {
+    background: #b877bb;
+}
+
+.white {
+    background: white;
+}
+
+.yellow {
+    background: #cfb73d;
+}
+
+.limegreen{
+    background: #7faf47;
+}
+
+.red {
+    background: #b45046;
+}
+
+.blue {
+    background: #2e6ac8;
+}
+
+/* SECTIONS */
+
+
+.section-1 {
+    grid-area: 1/1/9/3;
+}
+
+.section-2 {
+    grid-area: 9/1/11/5;
+}
+
+.section-3 {
+    grid-area: 1/3/3/11;
+}
+
+.section-4 {
+    grid-area: 3/3/5/5;
+}
+
+.section-5 {
+    grid-area: 3/5/5/7;
+}
+
+.section-6 {
+    grid-area: 5/3/9/7;
+}
+
+.section-7 {
+    grid-area: 9/5/11/9;
+}
+
+.section-8 {
+    grid-area: 3/7/9/9;
+}
+
+.section-9 {
+    grid-area: 3/9/11/11;
+}
+
+}
+
+
+
+
+
+
+
 
