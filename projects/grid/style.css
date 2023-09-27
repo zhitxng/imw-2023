@@ -79,7 +79,6 @@ body {
     width: 600px;
     height: 600px;
     grid-template: repeat(10, 1fr)/repeat(10, 1fr);
-    border: 2px #000000;
 
 /* COLOURS */
 
