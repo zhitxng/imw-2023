@@ -143,11 +143,9 @@ body {
     grid-area: 4/9/11/11;
 }
 
-}
-
 .gridlines {
     display: grid;
-    z-index: -1;
+    z-index: +1;
     width: 600px;
     height: 600px;
     grid-template: repeat(10, 1fr)/repeat(10, 1fr);
@@ -159,3 +157,6 @@ body {
     grid-area: 1/6/4/11;
     grid-area: 4/9/11/11;
 }
+
+}
+
