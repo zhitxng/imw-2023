@@ -108,6 +108,10 @@ body {
     border-right: 15px solid #000000;
 }
 
+.thin-border-right {
+    border-right: 2px solid #000000;
+}
+
 .border-bottom {
     border-bottom: 15px solid #000000;
 }
