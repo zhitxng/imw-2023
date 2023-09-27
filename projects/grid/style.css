@@ -111,9 +111,13 @@ body {
     border-bottom: 15px solid #000000;
 }
 
-.gridlines {
-    display: grid 1px;
+.subgrid {
+    display: grid;
+    width: auto;
+    height: auto;
     grid-template: 1fr, 1fr/repeat(10, 1fr);
+    border: 1px #000000;
+    z-index: +1;
 }
 
 /* SECTIONS */
