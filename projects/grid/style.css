@@ -116,6 +116,10 @@ body {
     border-bottom: 15px solid #000000;
 }
 
+.thin-border-bottom {
+    border-bottom: 2px solid #000000;
+}
+
 
 /* SECTIONS */
 
