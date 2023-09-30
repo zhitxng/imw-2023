@@ -1,5 +1,43 @@
-body {
-    background-color: rgb(188, 188, 188);
-    font-family: Arial, Helvetica, sans-serif;
+/* Fonts Stylesheet */
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Adobe Font */
+.write {
+    border: 1px solid black;
+    font-size: 200px;
+    font-family: "sloop-script-one", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.write:hover {
+    font-size: 100px;
+}
+
+/* Metaflop Font */
+@font-face {
+    font-family: 'Bespoke';
+    src: url('font/Bespoke-oNL7HROUGf.eot');
+    src: url('font/Bespoke-oNL7HROUGf.eot?#iefix') format('embedded-opentype'),
+       url('font/Bespoke-oNL7HROUGf.woff') format('woff'),
+       url('font/Bespoke-oNL7HROUGf.ttf') format('truetype'),
+       url('font/Bespoke-oNL7HROUGf.svg#Bespoke-oNL7HROUGf') format('svg');
+  }
+.draw {
+    font-size: 100px;
+    font-family: "bespoke", serif;
+}
+
+/* Google Font */
+.type {
+    font-size: 175px;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
