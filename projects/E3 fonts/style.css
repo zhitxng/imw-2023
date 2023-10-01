@@ -1,10 +1,10 @@
 /* Fonts Stylesheet */
 
 body {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -14,28 +14,34 @@ body {
     font-family: "sloop-script-one", cursive;
     font-weight: 400;
     font-style: normal;
-    filter:blur(8px);
+    filter: blur(8px);
     transition: 250ms ease-in-out;
 }
 
-.clarify:hover{
+.clarify:hover {
     animation: 0.25s linear forwards clarify;
- }
-      
-@keyframes clarify { 
-    from { filter:blur(5px); } to { filter:blur(0px); }  
 }
-    
+
+@keyframes clarify {
+    from {
+        filter: blur(5px);
+    }
+
+    to {
+        filter: blur(0px);
+    }
+}
+
 
 /* Metaflop Font */
 @font-face {
     font-family: 'Bespoke';
     src: url('font/Bespoke-oNL7HROUGf.eot');
     src: url('font/Bespoke-oNL7HROUGf.eot?#iefix') format('embedded-opentype'),
-       url('font/Bespoke-oNL7HROUGf.woff') format('woff'),
-       url('font/Bespoke-oNL7HROUGf.ttf') format('truetype'),
-       url('font/Bespoke-oNL7HROUGf.svg#Bespoke-oNL7HROUGf') format('svg');
-  }
+        url('font/Bespoke-oNL7HROUGf.woff') format('woff'),
+        url('font/Bespoke-oNL7HROUGf.ttf') format('truetype'),
+        url('font/Bespoke-oNL7HROUGf.svg#Bespoke-oNL7HROUGf') format('svg');
+}
 
 .pop {
     font-size: 100px;
@@ -44,24 +50,27 @@ body {
 }
 
 .pop:hover {
-        backface-visibility: visible !important;
-        animation: pop 20ms infinite;
-    }
+    backface-visibility: visible !important;
+    animation: pop 20ms infinite;
+}
 
 @keyframes pop {
-        0% {
-            transform: perspective(400px) scale(1);
-        }
-        40% {
-            transform: perspective(400px) translateZ(150px);
-        }
-        80% {
-            transform: perspective(400px) scale(.95);
-        }
-        100% {
-            transform: perspective(400px) scale(1);
-        }
+    0% {
+        transform: perspective(400px) scale(1);
     }
+
+    40% {
+        transform: perspective(400px) translateZ(150px);
+    }
+
+    80% {
+        transform: perspective(400px) scale(.95);
+    }
+
+    100% {
+        transform: perspective(400px) scale(1);
+    }
+}
 
 
 /* Google Font */
@@ -76,14 +85,14 @@ body {
     -webkit-mask-image: linear-gradient(-75deg, rgba(255, 255, 255, 0.6) 30%, #ffffff 40%, rgba(255, 255, 255, 0.6) 70%);
     -webkit-mask-size: 200%;
     animation: shine 1s infinite;
-  }
-  
-  @-webkit-keyframes shine {
+}
+
+@-webkit-keyframes shine {
     from {
-      -webkit-mask-position: 150%;
+        -webkit-mask-position: 150%;
     }
-    
+
     to {
-      -webkit-mask-position: -50%;
+        -webkit-mask-position: -50%;
     }
-  }
+}
