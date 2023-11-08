@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+}
