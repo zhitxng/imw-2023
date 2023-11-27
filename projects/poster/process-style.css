@@ -14,11 +14,18 @@ body {
 
 /* Start of text sizes */
 h1 {
-    font-size: 4em;
+    font-family: "Champion-HTF-Heavyweight", sans-serif;
+    text-transform: capitalize;
+    font-size: 6em;
+    text-transform: uppercase;
+    align-self: center;
 }
 
 h2 {
     font-size: 3em;
+    font-family: "adobe-caslon-pro", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 p {
